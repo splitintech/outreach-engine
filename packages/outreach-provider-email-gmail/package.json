@@ -38,7 +38,8 @@
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@splitin/outreach-contracts": "0.0.0"
+    "@splitin/outreach-contracts": "0.0.0",
+    "@splitin/outreach-provider-kit": "0.0.0"
   },
   "devDependencies": {
     "@splitin/outreach-fakes": "0.0.0"
