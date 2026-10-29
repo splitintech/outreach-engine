@@ -11,7 +11,7 @@
     "installed_cli_mcp": "passed",
     "local_note": "TMPDIR=/private/tmp avoids macOS /var symlink rejected by backup safety checks"
   },
-  "ci": "Check Actions on the exact standalone commit; final successful runs are recorded in the hub migration ledger.",
+  "ci": "Not yet run: remote repository creation is awaiting visibility authorization.",
   "npm_published": false,
   "images_published": false,
   "live_services_deployed": false,
