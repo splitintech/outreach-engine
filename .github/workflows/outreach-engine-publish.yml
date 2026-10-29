@@ -9,6 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
+    if: vars.NPM_TRUSTED_PUBLISHING_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     environment: npm-release
@@ -17,7 +18,7 @@ jobs:
       id-token: write
     defaults:
       run:
-        working-directory: outreach-engine
+        working-directory: .
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,7 +37,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: outreach-engine/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm install -g npm@11.9.0
       - run: npm ci
       - run: npm run build

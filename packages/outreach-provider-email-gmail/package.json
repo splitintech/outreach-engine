@@ -4,11 +4,11 @@
   "description": "Gmail API adapter for the outreach engine: send as the mailbox user, reconcile via the Sent folder, read replies and bounces via the History API.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-provider-email-gmail#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-provider-email-gmail"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-provider-email-gmail"
   },
   "type": "module",
   "sideEffects": false,
@@ -43,5 +43,8 @@
   },
   "devDependencies": {
     "@splitin/outreach-fakes": "0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

@@ -4,11 +4,11 @@
   "description": "Outreach HTTP API: bearer-token /v1 routes, signed provider webhooks and one-click unsubscribe.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-server#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-server"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-server"
   },
   "type": "module",
   "sideEffects": false,
@@ -48,5 +48,8 @@
   "devDependencies": {
     "@splitin/outreach-fakes": "0.0.0",
     "@splitin/outreach-store-sqlite": "0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

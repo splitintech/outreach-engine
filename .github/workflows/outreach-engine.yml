@@ -3,11 +3,11 @@ name: outreach-engine
 on:
   push:
     paths:
-      - "outreach-engine/**"
+      - "**"
       - ".github/workflows/outreach-engine.yml"
   pull_request:
     paths:
-      - "outreach-engine/**"
+      - "**"
       - ".github/workflows/outreach-engine.yml"
   workflow_dispatch:
 
@@ -16,7 +16,7 @@ permissions:
 
 defaults:
   run:
-    working-directory: outreach-engine
+    working-directory: .
 
 jobs:
   check:
@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
-          cache-dependency-path: outreach-engine/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci
       - run: npm run build
       - run: npm run lint
@@ -42,3 +42,7 @@ jobs:
       - run: npm run secrets
       - run: npm run loc
       - run: npm run soak
+      - run: npm run mcp:smoke
+      - run: npm run release:verify -- --allow-unreleased
+      - run: npm run check:packed
+      - run: python3 scripts/check-migration.py

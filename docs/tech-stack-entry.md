@@ -1,7 +1,7 @@
 # Proposed tech-stack entry (not published)
 
 Title: Outreach Engine
-Repository: https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine
+Repository: https://github.com/splitintech/outreach-engine
 Package scope: @splitin/outreach-*
 License: MIT
 Status: Development; publication and live acceptance pending

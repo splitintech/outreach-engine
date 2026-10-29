@@ -14,5 +14,14 @@
     "@splitin/outreach-fakes": "0.0.0",
     "@splitin/outreach-server": "0.0.0",
     "@splitin/outreach-store-sqlite": "0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "apps/papr"
+  },
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/apps/papr#readme",
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

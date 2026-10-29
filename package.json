@@ -25,7 +25,9 @@
     "check": "npm run lint && npm run typecheck && npm test && npm run boundaries && npm run secrets && npm run loc",
     "soak": "node scripts/soak.mjs",
     "release:verify": "node scripts/verify-release.mjs",
-    "mcp:smoke": "node scripts/mcp-smoke.mjs"
+    "mcp:smoke": "node scripts/mcp-smoke.mjs",
+    "check:packed": "node scripts/check-packed.mjs",
+    "check:migration": "python3 scripts/check-migration.py"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
@@ -41,5 +43,13 @@
     "exceljs": {
       "uuid": "^11.1.1"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/outreach-engine.git"
+  },
+  "homepage": "https://github.com/splitintech/outreach-engine#readme",
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

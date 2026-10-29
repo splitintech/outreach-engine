@@ -4,11 +4,11 @@
   "description": "Microsoft Graph (Outlook / Exchange Online) adapter for the outreach engine: MIME draft-then-send, Sent Items reconciliation, inbox polling, rotating refresh tokens.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-provider-email-outlook#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-provider-email-outlook"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-provider-email-outlook"
   },
   "type": "module",
   "sideEffects": false,
@@ -43,5 +43,8 @@
   },
   "devDependencies": {
     "@splitin/outreach-fakes": "0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

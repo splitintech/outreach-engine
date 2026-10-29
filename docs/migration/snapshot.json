@@ -1,0 +1,1951 @@
+{
+  "source_commit": "13a7ffb75de3c5be017ce05d15e4115f191252d7",
+  "files": [
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "sha256": "621b12e1d3b8c833e6336c068d305c79d844e2f1ad9d9109491fc8974080c46f",
+      "source_sha256": "621b12e1d3b8c833e6336c068d305c79d844e2f1ad9d9109491fc8974080c46f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": ".github/workflows/outreach-engine-publish.yml",
+      "sha256": "8b1a2c9e00bf9150a5e0be799a428803ddbe22e2ee6b877f5914e4c1510669f7",
+      "source_sha256": "9b5ce531888bba941ac135eaad25feb9651384ecbc279bbe07086b8c161fd00e",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": ".github/workflows/outreach-engine.yml",
+      "sha256": "89c4b6bf4ccb04d4f1b5d4c36415f3b5b870cf5c1ab56c635819f4fd9dd6e851",
+      "source_sha256": "b23bde9788ff62db69fdaeb1bb2dcb3dd9527a5cff29a527129fb98a20855d5d",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "docs/brand/splitin-logo.png",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "source_sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a8a4ccfd247c6c233ab31852f2406b925bc803b1f33a133d0e5b69ef480e05d4",
+      "source_sha256": "894a9898dd96fdfd1f7ebb014c766af68e41c6de923fa00d2068edadb12e8fcd",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": ".npmrc",
+      "sha256": "a11dda47bd42b80cc96afca6287e5ea3da013e8085bdad4b036e695492b36152",
+      "source_sha256": "a11dda47bd42b80cc96afca6287e5ea3da013e8085bdad4b036e695492b36152",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "BUILD_PLAN.md",
+      "sha256": "a034c46b190738f3b332c06ff53e80468ac6158e5ae454c86527670107badf7a",
+      "source_sha256": "a034c46b190738f3b332c06ff53e80468ac6158e5ae454c86527670107badf7a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c3c2688eba311fcafc482466f2faa65be24d9df00596ab5af6bb2fd4f616ef98",
+      "source_sha256": "c3c2688eba311fcafc482466f2faa65be24d9df00596ab5af6bb2fd4f616ef98",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b1986d2e6ac1155cdd8304192a65216c07569aaa42663724cfafd9eb67b334e4",
+      "source_sha256": "b1986d2e6ac1155cdd8304192a65216c07569aaa42663724cfafd9eb67b334e4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "9a1ca1ca54e03bd2412761e64c5392fe901f8fb9ebf25cf006af4d1279ac5652",
+      "source_sha256": "c94666a275186095f8bfefe6c6b3fb96815d817db393566ea0eda16f5483d6ba",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "apps/papr/README.md",
+      "sha256": "491355731316c7bef13a8b8b26e39d86b5e41ad53140d13c25d77305814165b0",
+      "source_sha256": "491355731316c7bef13a8b8b26e39d86b5e41ad53140d13c25d77305814165b0",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/app.js",
+      "sha256": "343d2f3ae0d8a7c6a2f6475acde4bae6ca88dc10efe26999b1a8cf6f76c2420d",
+      "source_sha256": "343d2f3ae0d8a7c6a2f6475acde4bae6ca88dc10efe26999b1a8cf6f76c2420d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/backend/manifest.json",
+      "sha256": "05ade83babfbf83f2d2650d2c449057cc053e04deb0b950c9c60095b85f312d1",
+      "source_sha256": "05ade83babfbf83f2d2650d2c449057cc053e04deb0b950c9c60095b85f312d1",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/backend/outreach.mjs",
+      "sha256": "9e85b63c2246d0049935aa730c34dfb23a7c8b29949cdaf30637930d4d940e7b",
+      "source_sha256": "9e85b63c2246d0049935aa730c34dfb23a7c8b29949cdaf30637930d4d940e7b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/index.html",
+      "sha256": "a02abbb6038bfa481a25d2e3b0376e9e65578e5b974b6d70d1e7e0566059e471",
+      "source_sha256": "a02abbb6038bfa481a25d2e3b0376e9e65578e5b974b6d70d1e7e0566059e471",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/style.css",
+      "sha256": "7d933a74c85c4ece2883bf606f1712971739410101676392d71a05602d2ef60f",
+      "source_sha256": "7d933a74c85c4ece2883bf606f1712971739410101676392d71a05602d2ef60f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/actions.js",
+      "sha256": "36b2b0e0871ced788402632b2e72e7713c15e473ccdfa28dec95d33d793ac918",
+      "source_sha256": "36b2b0e0871ced788402632b2e72e7713c15e473ccdfa28dec95d33d793ac918",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/api.js",
+      "sha256": "b654781d66c0ea20ef8fc9c512e0096d8159621a93f2ce94fc45608ab55082e8",
+      "source_sha256": "b654781d66c0ea20ef8fc9c512e0096d8159621a93f2ce94fc45608ab55082e8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/approvals.js",
+      "sha256": "2a7a834bccad4bd2a1bd288e65d2d99d95df9abc952b901d2a8b3b4530f42e83",
+      "source_sha256": "2a7a834bccad4bd2a1bd288e65d2d99d95df9abc952b901d2a8b3b4530f42e83",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/campaigns.js",
+      "sha256": "ce561567fb5aef3b225a31dfbf90ec2cb015b40784a89de2ee4018f33371a784",
+      "source_sha256": "ce561567fb5aef3b225a31dfbf90ec2cb015b40784a89de2ee4018f33371a784",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/controller.js",
+      "sha256": "7c4747ad98e053baad5ee6c47043f26945fdda0f873a30fbc6af98e47d8a53f8",
+      "source_sha256": "7c4747ad98e053baad5ee6c47043f26945fdda0f873a30fbc6af98e47d8a53f8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/dialog.js",
+      "sha256": "3dc2ab9dc32e57ab1b919e2f9333219742ba4619df9c0ee13fde2ac4933c73af",
+      "source_sha256": "3dc2ab9dc32e57ab1b919e2f9333219742ba4619df9c0ee13fde2ac4933c73af",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/dom.js",
+      "sha256": "4f0b33655ae5d2878345b3553fc866336457d267f1e2847b4b09634d517d4802",
+      "source_sha256": "4f0b33655ae5d2878345b3553fc866336457d267f1e2847b4b09634d517d4802",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/review.js",
+      "sha256": "c94c4caeadcc2d13110d774a2b59137ed8a3a8c8699c4614a8fb96100d18a15f",
+      "source_sha256": "c94c4caeadcc2d13110d774a2b59137ed8a3a8c8699c4614a8fb96100d18a15f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/tasks.js",
+      "sha256": "dfbbe524fa27cec4e7f038876ffa8039733a2bd3cd3d2d518745dbd55f369379",
+      "source_sha256": "dfbbe524fa27cec4e7f038876ffa8039733a2bd3cd3d2d518745dbd55f369379",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/apps/outreach-console/ui/timeline.js",
+      "sha256": "bf2e047c3273e5109a1e06a3807cd550d2815605b8555f64bd16466120af2000",
+      "source_sha256": "bf2e047c3273e5109a1e06a3807cd550d2815605b8555f64bd16466120af2000",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/jobs/outreach-worker/code/run.mjs",
+      "sha256": "95785b9cced6fa10b8fb744ea6738c56db3f831e8416d007feccf9e894904054",
+      "source_sha256": "95785b9cced6fa10b8fb744ea6738c56db3f831e8416d007feccf9e894904054",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/manifest.json",
+      "sha256": "1183d4a50d7d8aabc7222382a4bbde1dea707644767479279614b428d526ef55",
+      "source_sha256": "1183d4a50d7d8aabc7222382a4bbde1dea707644767479279614b428d526ef55",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/bundle/skills/outreach.md",
+      "sha256": "149a36886d4d28baf2e0046d48dfb8085a333e1f17cea00b29f063a5d54e8d6e",
+      "source_sha256": "149a36886d4d28baf2e0046d48dfb8085a333e1f17cea00b29f063a5d54e8d6e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/compatibility.json",
+      "sha256": "dec4661621547790d725abd2e50545fe88a433992493bb36a6b388df976372cb",
+      "source_sha256": "dec4661621547790d725abd2e50545fe88a433992493bb36a6b388df976372cb",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/docs/ACCEPTANCE.md",
+      "sha256": "7c8e602728d1abc35b9a1f4e77209847a013bb912c8cc54f72e9e0507f7e6892",
+      "source_sha256": "7c8e602728d1abc35b9a1f4e77209847a013bb912c8cc54f72e9e0507f7e6892",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/package.json",
+      "sha256": "1c70fac9bccde7b4cf7c852cca46df254b5eeade7f2356a28810eda34c1e4b8f",
+      "source_sha256": "0255d07c01cc9515510fe6c41a848d8271454795cc2fafe9c0f806cc31d3cc1e",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "apps/papr/src/browser.test.ts",
+      "sha256": "480775d3404ad8f74cb791702c9917f19a21836cd13235f592f1fae813a70628",
+      "source_sha256": "480775d3404ad8f74cb791702c9917f19a21836cd13235f592f1fae813a70628",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/src/bundle.test.ts",
+      "sha256": "05499f74162eece1ff7862a05e940389238ad6d6dab7deabe40a58c537359643",
+      "source_sha256": "05499f74162eece1ff7862a05e940389238ad6d6dab7deabe40a58c537359643",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/src/compatibility.test.ts",
+      "sha256": "04cdb4cfea1b937bb154ea04b15c992a9d84bdb14c4991d03d33354a21b3378b",
+      "source_sha256": "04cdb4cfea1b937bb154ea04b15c992a9d84bdb14c4991d03d33354a21b3378b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/src/ui-test-dom.ts",
+      "sha256": "258f785e8ffec2d1fc5df54ad76e39cb594cc209b358931ed6cbce79c9440cfd",
+      "source_sha256": "258f785e8ffec2d1fc5df54ad76e39cb594cc209b358931ed6cbce79c9440cfd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/src/worker.test.ts",
+      "sha256": "0a2450449d474fe840e7927caa98802393c4d751a9de91418342e135b1c1a8d9",
+      "source_sha256": "0a2450449d474fe840e7927caa98802393c4d751a9de91418342e135b1c1a8d9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "apps/papr/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/adr/0001-architecture.md",
+      "sha256": "74d91b1a54e223a96f634da88b63ff8e396b1efe0b67e2ea666ac3316952a10c",
+      "source_sha256": "74d91b1a54e223a96f634da88b63ff8e396b1efe0b67e2ea666ac3316952a10c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/adr/0002-at-most-once-without-confirmation.md",
+      "sha256": "2cdf038d73c581e2b3e216d6b17544312b05ef31941f97262e8974221fe44bbd",
+      "source_sha256": "2cdf038d73c581e2b3e216d6b17544312b05ef31941f97262e8974221fe44bbd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/adr/0003-no-social-automation.md",
+      "sha256": "992349635a9bcd9cbd74ecbb59517a7e747608edc81b9329dadb77486e439b04",
+      "source_sha256": "992349635a9bcd9cbd74ecbb59517a7e747608edc81b9329dadb77486e439b04",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/adr/0004-papr-host-integration.md",
+      "sha256": "11d8184e8ee204c0f816aff5a7492449d55635f22ec5e5897b621bf5634fb2b4",
+      "source_sha256": "11d8184e8ee204c0f816aff5a7492449d55635f22ec5e5897b621bf5634fb2b4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/adr/0005-zoho-manual-boundary.md",
+      "sha256": "124f9320967c3e5dec9fe95099a77fdcf612fbf0ac7c7a54a42d6cbfbfcc3126",
+      "source_sha256": "124f9320967c3e5dec9fe95099a77fdcf612fbf0ac7c7a54a42d6cbfbfcc3126",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/maintenance.md",
+      "sha256": "4e1d70112e6415a4137d2c0978d8c7ecc866f5eb4a8b486b689526e050a3446f",
+      "source_sha256": "4e1d70112e6415a4137d2c0978d8c7ecc866f5eb4a8b486b689526e050a3446f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/release.md",
+      "sha256": "4dc3da0d49a4baadeac0df65625f71ae845302d28ac2fe659873f1f2bc7b95a7",
+      "source_sha256": "4dc3da0d49a4baadeac0df65625f71ae845302d28ac2fe659873f1f2bc7b95a7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/runbook.md",
+      "sha256": "5368438e7f13e88a17d1bab9c471090a91f6007e3fd3efd8c35e09e75d9c2809",
+      "source_sha256": "5368438e7f13e88a17d1bab9c471090a91f6007e3fd3efd8c35e09e75d9c2809",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/tech-stack-entry.md",
+      "sha256": "446554f7303111f1d51ff00b8f4f2266a115e4c5b66e05c3d614969ea7d2cbc0",
+      "source_sha256": "0612b3decb8947a2d1d2dd67bad590795c62ff821806c59550cfe18925a41c15",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "docs/threat-model.md",
+      "sha256": "a0db2f23f5c5221d550ed8e1720a47e8068d3761a71326c13abfae870dc75a99",
+      "source_sha256": "a0db2f23f5c5221d550ed8e1720a47e8068d3761a71326c13abfae870dc75a99",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "eslint.config.js",
+      "sha256": "fe4a5db23307f2eb2aa5c107201d10f63c59acdade69889270155f38798079f5",
+      "source_sha256": "fe4a5db23307f2eb2aa5c107201d10f63c59acdade69889270155f38798079f5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "07f9b4c8b63959de453d1ad30fe67329801ab1f54005246b02334cdd6cc10a1a",
+      "source_sha256": "07f9b4c8b63959de453d1ad30fe67329801ab1f54005246b02334cdd6cc10a1a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package.json",
+      "sha256": "5b7e8cbcb26726f7db9d9e05f6bb350ad396dfe1a89a04f690e569e2b7293705",
+      "source_sha256": "c551b3e54d568d3834f46544f10f29973bef7750cf9fce01aee42e7bdcde0ed8",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-cli/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/README.md",
+      "sha256": "478ad0faaaea70aeb5f57744341433575e73b47fd173dc5b0d85a8d4c1d219aa",
+      "source_sha256": "478ad0faaaea70aeb5f57744341433575e73b47fd173dc5b0d85a8d4c1d219aa",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/package.json",
+      "sha256": "7856a4c803e6b8d399777fbab02c1a00daf412f2c27d4faa0b6348de65325a28",
+      "source_sha256": "bb3121d6bef31187ab9ed35114f43022fe53eb6eb08305202930f2ecbe81f06f",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-cli/src/bin.ts",
+      "sha256": "0274c4dc917225cfd222fcfbbb26249ddb5cbc98813bef6d3c3c3f0c1a04ccb6",
+      "source_sha256": "0274c4dc917225cfd222fcfbbb26249ddb5cbc98813bef6d3c3c3f0c1a04ccb6",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/cli.test.ts",
+      "sha256": "f67e9d5d12bc891667c3a73490493ce01ce07e2d0e9f62a07b6ed588704e17a4",
+      "source_sha256": "f67e9d5d12bc891667c3a73490493ce01ce07e2d0e9f62a07b6ed588704e17a4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/campaigns.ts",
+      "sha256": "2d525f4242b4531875c3b32d85b2117f81309d3dfe099c4d719d49bf9042a0ad",
+      "source_sha256": "2d525f4242b4531875c3b32d85b2117f81309d3dfe099c4d719d49bf9042a0ad",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/connect.ts",
+      "sha256": "655eb78e9784ed8b24362b8c58cb229c9bb4dd92c6d5725e90ac13ada8cb684c",
+      "source_sha256": "655eb78e9784ed8b24362b8c58cb229c9bb4dd92c6d5725e90ac13ada8cb684c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/content.ts",
+      "sha256": "d8629702658b6ef443c0627aff924ad15543cf9fb623c6f19229f60df22042b1",
+      "source_sha256": "d8629702658b6ef443c0627aff924ad15543cf9fb623c6f19229f60df22042b1",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/maintenance.ts",
+      "sha256": "8a27b3f809e2151adfd300bfb0bc0526d3017fc6a8434bcba3f9a2f9c52cbbf2",
+      "source_sha256": "8a27b3f809e2151adfd300bfb0bc0526d3017fc6a8434bcba3f9a2f9c52cbbf2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/serve.ts",
+      "sha256": "04f0ff01a4a4f51f4437d5403491bf1412f11b6fafd3b1ba8dcfed2b35ef6fd8",
+      "source_sha256": "04f0ff01a4a4f51f4437d5403491bf1412f11b6fafd3b1ba8dcfed2b35ef6fd8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/setup.ts",
+      "sha256": "0f31121395dabe6d0e744a4a177c4f1c2b1cf9a331442f0a818988a6a038a238",
+      "source_sha256": "0f31121395dabe6d0e744a4a177c4f1c2b1cf9a331442f0a818988a6a038a238",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/commands/types.ts",
+      "sha256": "475d9e907278538731ac78c42aeaf029564bb969a66d8048f16241ca33b7e195",
+      "source_sha256": "475d9e907278538731ac78c42aeaf029564bb969a66d8048f16241ca33b7e195",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/connect.test.ts",
+      "sha256": "b2fd7ea4bf458566ea26e3dd7f48d401c6a8785a97d360c350eb159db19d5597",
+      "source_sha256": "b2fd7ea4bf458566ea26e3dd7f48d401c6a8785a97d360c350eb159db19d5597",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/index.ts",
+      "sha256": "d834fd7a3606b744c8dff9ccd7f5290ec0f6157b00f7c6d9a32dbaf1d2a7f5e5",
+      "source_sha256": "d834fd7a3606b744c8dff9ccd7f5290ec0f6157b00f7c6d9a32dbaf1d2a7f5e5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/main.ts",
+      "sha256": "4821ea48c5df81815888f60b6b52a8256252322c87c1d05dd9aad201000789f6",
+      "source_sha256": "4821ea48c5df81815888f60b6b52a8256252322c87c1d05dd9aad201000789f6",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/maintenance.test.ts",
+      "sha256": "5723c4c6e93315cb9a625cdeb7a342601532928ba68a97b9fc38913e320ebbbd",
+      "source_sha256": "5723c4c6e93315cb9a625cdeb7a342601532928ba68a97b9fc38913e320ebbbd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/output.ts",
+      "sha256": "95786249cf89436c88deea05872a27afd4a46809ee919634a4018202ada9d636",
+      "source_sha256": "95786249cf89436c88deea05872a27afd4a46809ee919634a4018202ada9d636",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/src/runtime.ts",
+      "sha256": "050cb6fb06a941ecdc179eacf4630c5c665a0359701faa4411bbc42840e0b886",
+      "source_sha256": "050cb6fb06a941ecdc179eacf4630c5c665a0359701faa4411bbc42840e0b886",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-cli/tsup.config.ts",
+      "sha256": "3e815e39d8d19fae30cf1b5c11beb599ef5ed7c589bb2a0ee4824516792e6c20",
+      "source_sha256": "3e815e39d8d19fae30cf1b5c11beb599ef5ed7c589bb2a0ee4824516792e6c20",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/README.md",
+      "sha256": "5aaad616aa1a2b6a21ac6998c32d2f03b0deab024e31968071c412f1113ef76f",
+      "source_sha256": "5aaad616aa1a2b6a21ac6998c32d2f03b0deab024e31968071c412f1113ef76f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/package.json",
+      "sha256": "82e2f392b74d5910181b25dd553b6992dfc18e8f0266a1ef0a43326aad968c7e",
+      "source_sha256": "616bf0b37a77f8cdbd853db59863e0dc96fe3c9534872d8e5459043411072ae6",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-contracts/src/actions.test.ts",
+      "sha256": "8dec89bdd495c80e4f34ebdcef4a7478c801fa79801373301fab58dae446933e",
+      "source_sha256": "8dec89bdd495c80e4f34ebdcef4a7478c801fa79801373301fab58dae446933e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/actions.ts",
+      "sha256": "dbc9bf5d4b5d0b528bcdfb5a7bc688d3380640fa4131516c891c75cb142cb396",
+      "source_sha256": "dbc9bf5d4b5d0b528bcdfb5a7bc688d3380640fa4131516c891c75cb142cb396",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/audit.ts",
+      "sha256": "c9cefd3c5ee9c6fe8b69627f9c1199aeb4353af78829c0733b808d63b5bd591c",
+      "source_sha256": "c9cefd3c5ee9c6fe8b69627f9c1199aeb4353af78829c0733b808d63b5bd591c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/capabilities.test.ts",
+      "sha256": "f83067f9395979809e3f249c3e215a5946431f90c73312273081ba7aa8de7197",
+      "source_sha256": "f83067f9395979809e3f249c3e215a5946431f90c73312273081ba7aa8de7197",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/capabilities.ts",
+      "sha256": "2f41a78f1fc3600f258478d438ae83ad48d8952b8a90809151a5ac0e8fa70d0c",
+      "source_sha256": "2f41a78f1fc3600f258478d438ae83ad48d8952b8a90809151a5ac0e8fa70d0c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/crypto.test.ts",
+      "sha256": "3fa028d959e1392e4b8ef0ed04a2432bce786c4a5e9cda3c99733dfb33fc5f72",
+      "source_sha256": "3fa028d959e1392e4b8ef0ed04a2432bce786c4a5e9cda3c99733dfb33fc5f72",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/crypto.ts",
+      "sha256": "b4861714247030be09d36579b741ac78ebbccc4e02c5f4f56ecb8f7161fbbee2",
+      "source_sha256": "b4861714247030be09d36579b741ac78ebbccc4e02c5f4f56ecb8f7161fbbee2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/errors.test.ts",
+      "sha256": "a0b9ad1cbaf92d01126784f09ca858041a70198cab23b4cd035ee71a7ad0c127",
+      "source_sha256": "a0b9ad1cbaf92d01126784f09ca858041a70198cab23b4cd035ee71a7ad0c127",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/errors.ts",
+      "sha256": "ce36c1f96bb31dd977ee96965228e54a944b63ede5a4e8322befbc8a63262690",
+      "source_sha256": "ce36c1f96bb31dd977ee96965228e54a944b63ede5a4e8322befbc8a63262690",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/index.ts",
+      "sha256": "1f0e8dd212b284cc64e69840242a028f5f5928019cf8be65ab1bd5c5e4e2dd2c",
+      "source_sha256": "1f0e8dd212b284cc64e69840242a028f5f5928019cf8be65ab1bd5c5e4e2dd2c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/mime.ts",
+      "sha256": "39769761fd7d71d8d359db2e719857d0794b9f562b4f30842fee3445f0a2e30d",
+      "source_sha256": "39769761fd7d71d8d359db2e719857d0794b9f562b4f30842fee3445f0a2e30d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/providers.ts",
+      "sha256": "3657e7cd01ffe8279c6a2ee57914c6be919eb43e83c9e5617822ae00f0a5441e",
+      "source_sha256": "3657e7cd01ffe8279c6a2ee57914c6be919eb43e83c9e5617822ae00f0a5441e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/sql.ts",
+      "sha256": "1712aabc80a39a7c4f6d9ebe7e172218ab2af39ca8812d930ad5b2e51de8c918",
+      "source_sha256": "1712aabc80a39a7c4f6d9ebe7e172218ab2af39ca8812d930ad5b2e51de8c918",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/version.test.ts",
+      "sha256": "bfd6a9c9929922e5d22982651114621721b5f5548c89602b8ad708cc3ec80ab9",
+      "source_sha256": "bfd6a9c9929922e5d22982651114621721b5f5548c89602b8ad708cc3ec80ab9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/src/version.ts",
+      "sha256": "d22b1e65ce36268cfc6b31c6925b074401999a25f19040e01247f4a2fc30d93e",
+      "source_sha256": "d22b1e65ce36268cfc6b31c6925b074401999a25f19040e01247f4a2fc30d93e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-contracts/tsup.config.ts",
+      "sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "source_sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/README.md",
+      "sha256": "fc9ce37f304b71984ded9a29882ec88e3eeae375f848ea650ffef964cb11d023",
+      "source_sha256": "fc9ce37f304b71984ded9a29882ec88e3eeae375f848ea650ffef964cb11d023",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/package.json",
+      "sha256": "bf19c57bc037ed395b9ffb3df1db31abc44a15c28a5bfd7d9b195b99d60467f8",
+      "source_sha256": "b3b65a5979e8b1f1f8a62c6f711ec594d0e0761984dc1e90162b74759d2ce9a3",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-core/src/domain/access.ts",
+      "sha256": "c5bb7b1272c77125180a64797b2227c72beb622c54532c827a9d8befba52994f",
+      "source_sha256": "c5bb7b1272c77125180a64797b2227c72beb622c54532c827a9d8befba52994f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/approvals.ts",
+      "sha256": "7b6e3a3fd6e77c47ebde7eba9564ff687f3602619329a8c4bad06ad70cc2d5e4",
+      "source_sha256": "7b6e3a3fd6e77c47ebde7eba9564ff687f3602619329a8c4bad06ad70cc2d5e4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/auth.ts",
+      "sha256": "ed25c2588ce51f9072c931a36af1f9dd1b32d014062f69778a32ca54e6f2b216",
+      "source_sha256": "ed25c2588ce51f9072c931a36af1f9dd1b32d014062f69778a32ca54e6f2b216",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/calendar.test.ts",
+      "sha256": "520c99fca2e37269d4decee4e6b546ddfd84178ec37063cdef0026ea40f60cb9",
+      "source_sha256": "520c99fca2e37269d4decee4e6b546ddfd84178ec37063cdef0026ea40f60cb9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/calendar.ts",
+      "sha256": "3ba87b341c2c5c6cfc9e734d8a165223558d1ad0d329f3cb5b7e091b2616e4db",
+      "source_sha256": "3ba87b341c2c5c6cfc9e734d8a165223558d1ad0d329f3cb5b7e091b2616e4db",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/campaigns.test.ts",
+      "sha256": "37fe5a3407cedc5f06b4b6650df66bbbcc450706e55ed20663377aecca5ddde8",
+      "source_sha256": "37fe5a3407cedc5f06b4b6650df66bbbcc450706e55ed20663377aecca5ddde8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/campaigns.ts",
+      "sha256": "17815c857a13d77963d01e9953c1aadc0096ebd60c3d1c46a761f06f45169122",
+      "source_sha256": "17815c857a13d77963d01e9953c1aadc0096ebd60c3d1c46a761f06f45169122",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/compile.ts",
+      "sha256": "458f9a55d3a1d58559c7e5148dd384687a797e08c750c349863585b558ec3db8",
+      "source_sha256": "458f9a55d3a1d58559c7e5148dd384687a797e08c750c349863585b558ec3db8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/domain.test-util.ts",
+      "sha256": "dbe20516c1a2d735383cdc7d9b7cb1282be8389474e83a5b4af0cf21a9be0327",
+      "source_sha256": "dbe20516c1a2d735383cdc7d9b7cb1282be8389474e83a5b4af0cf21a9be0327",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/env.ts",
+      "sha256": "89e5905a7b55afd4fed5c2e466a4ae5ac1f3df9995249fdd7440b507acb23f73",
+      "source_sha256": "89e5905a7b55afd4fed5c2e466a4ae5ac1f3df9995249fdd7440b507acb23f73",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/health.test.ts",
+      "sha256": "ef15fa97c2435b64dc62fa3977ae2eae4d5af2565ed6f7398e045320d276b425",
+      "source_sha256": "ef15fa97c2435b64dc62fa3977ae2eae4d5af2565ed6f7398e045320d276b425",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/health.ts",
+      "sha256": "fc0aa70cae0219b1f3ba91261a05b974a23e115043abfb980ef31e6720175f10",
+      "source_sha256": "fc0aa70cae0219b1f3ba91261a05b974a23e115043abfb980ef31e6720175f10",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/index.ts",
+      "sha256": "8d7240edba802896dbdbe8162c824f775075643c6d4a6420c386b0e87d0f3adb",
+      "source_sha256": "8d7240edba802896dbdbe8162c824f775075643c6d4a6420c386b0e87d0f3adb",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/jurisdictions.test.ts",
+      "sha256": "e76f0be61f381d4f95b4179790db31739940482e5093f385ba3ff3c2d8b4eaad",
+      "source_sha256": "e76f0be61f381d4f95b4179790db31739940482e5093f385ba3ff3c2d8b4eaad",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/jurisdictions.ts",
+      "sha256": "489385c9cf82ef305d130c78555b21dd2e6854f1f18d0c26fa37640b99440536",
+      "source_sha256": "489385c9cf82ef305d130c78555b21dd2e6854f1f18d0c26fa37640b99440536",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/materialize.ts",
+      "sha256": "de851df1bf53d6032c408c6dcc486cf96ba7dad175dc9f01c6293e6b543f9dbe",
+      "source_sha256": "de851df1bf53d6032c408c6dcc486cf96ba7dad175dc9f01c6293e6b543f9dbe",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/operations.ts",
+      "sha256": "61ba7d85a5ad96c039b765b2f4bcfef1dc0dce61fa896fd59ea0944f3ce8a42d",
+      "source_sha256": "61ba7d85a5ad96c039b765b2f4bcfef1dc0dce61fa896fd59ea0944f3ce8a42d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/playbook.test.ts",
+      "sha256": "7e2c42a7b24f30dcf5aa692d31e6f2d8d383cdac33db8dc50230a5eaf49fd69e",
+      "source_sha256": "7e2c42a7b24f30dcf5aa692d31e6f2d8d383cdac33db8dc50230a5eaf49fd69e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/playbook.ts",
+      "sha256": "f1bfd27bdb1a939fa471b3497f139c6eea081e4f15f274f6f51be02d57b1c305",
+      "source_sha256": "f1bfd27bdb1a939fa471b3497f139c6eea081e4f15f274f6f51be02d57b1c305",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/prepared.ts",
+      "sha256": "21c9169a4f191c7037a983c1660a21b05b1788697d388561f4b3ceb4c1f53475",
+      "source_sha256": "21c9169a4f191c7037a983c1660a21b05b1788697d388561f4b3ceb4c1f53475",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/retention-selection.ts",
+      "sha256": "42d5439c6c109987d754ace18870d4bc753c600205b30eddc6daff59da179b47",
+      "source_sha256": "42d5439c6c109987d754ace18870d4bc753c600205b30eddc6daff59da179b47",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/retention.test.ts",
+      "sha256": "7c717b7d0dfce12dfab6b329aa4a5083d3e134dc06a5101550cdb219e24b23ce",
+      "source_sha256": "7c717b7d0dfce12dfab6b329aa4a5083d3e134dc06a5101550cdb219e24b23ce",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/retention.ts",
+      "sha256": "5edccc2ff093a7e35b9ef34e122f69009175fd68405bbe7189e4dde74bf06561",
+      "source_sha256": "5edccc2ff093a7e35b9ef34e122f69009175fd68405bbe7189e4dde74bf06561",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/suppressions.ts",
+      "sha256": "bfeb5fa24fbaef0eca9839fa40d709d55a28fa46842385f6cfed59bf40108543",
+      "source_sha256": "bfeb5fa24fbaef0eca9839fa40d709d55a28fa46842385f6cfed59bf40108543",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/templates.ts",
+      "sha256": "cd449ce6143de02a86666a4d8534e6fae9d3ba7187b45b6be8158250338ad78a",
+      "source_sha256": "cd449ce6143de02a86666a4d8534e6fae9d3ba7187b45b6be8158250338ad78a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/unsubscribe-headers.test.ts",
+      "sha256": "08a223a4955884e6074ae58d1c02a865985a460c19bcab09cb7f4319f2947887",
+      "source_sha256": "08a223a4955884e6074ae58d1c02a865985a460c19bcab09cb7f4319f2947887",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/domain/wiring.ts",
+      "sha256": "94983ff9715c8d1e6dd5c65ece67c168091e37ca7262b452a16f4144aaf29d36",
+      "source_sha256": "94983ff9715c8d1e6dd5c65ece67c168091e37ca7262b452a16f4144aaf29d36",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/engine.ts",
+      "sha256": "111653fa2417d39da2e895764224f6f18bdf7fee6e2786657fcf85021ab07854",
+      "source_sha256": "111653fa2417d39da2e895764224f6f18bdf7fee6e2786657fcf85021ab07854",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/actions-repo.ts",
+      "sha256": "541e29ecbbbd1e5a97f0178967e00109ca91cea66de84a71ed30bb36c3c4a3ac",
+      "source_sha256": "541e29ecbbbd1e5a97f0178967e00109ca91cea66de84a71ed30bb36c3c4a3ac",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/enqueue.ts",
+      "sha256": "3196134b2151acdc01840d851a585c09a790f5866049da07e14b33ba14e7b9eb",
+      "source_sha256": "3196134b2151acdc01840d851a585c09a790f5866049da07e14b33ba14e7b9eb",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/executor.test.ts",
+      "sha256": "1e4e004bde6912eb7790317b0d40658e9d8beb0aa7ae44754596b1a2c1291b34",
+      "source_sha256": "1e4e004bde6912eb7790317b0d40658e9d8beb0aa7ae44754596b1a2c1291b34",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/executor.ts",
+      "sha256": "5233c464117a38e425b149047612276ba3e99fe37077c88d20e798344abb5e89",
+      "source_sha256": "5233c464117a38e425b149047612276ba3e99fe37077c88d20e798344abb5e89",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/harness.test-util.ts",
+      "sha256": "689b746475f8d4ad5002a3ece1c7c4f091b9fd5d9e212d650ae1baae44724f3e",
+      "source_sha256": "689b746475f8d4ad5002a3ece1c7c4f091b9fd5d9e212d650ae1baae44724f3e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/index.ts",
+      "sha256": "01dba910852c74861f07bf2d85231463a100512e22b423ffeb345d27501b01f4",
+      "source_sha256": "01dba910852c74861f07bf2d85231463a100512e22b423ffeb345d27501b01f4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/invariants.test.ts",
+      "sha256": "f57fbeca61fe268fb99069efb8c6870ec8a9c4a496c7a749cabe00d4bc3bef45",
+      "source_sha256": "f57fbeca61fe268fb99069efb8c6870ec8a9c4a496c7a749cabe00d4bc3bef45",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/invoke.ts",
+      "sha256": "ffd3d50f49889ef38497eee6f329ece32fb4bc5e299fb920cd7c9066c152875f",
+      "source_sha256": "ffd3d50f49889ef38497eee6f329ece32fb4bc5e299fb920cd7c9066c152875f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/kill-switches.ts",
+      "sha256": "8016cff5c86d081e05e0401d5d84c7351251e687eaa2cb29b43a6db74f4c412b",
+      "source_sha256": "8016cff5c86d081e05e0401d5d84c7351251e687eaa2cb29b43a6db74f4c412b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/preflight.ts",
+      "sha256": "605c94a9bad3c8c0f82eb9f327d4e0ef76dbea4a67510eb8aa96eac6126e9128",
+      "source_sha256": "605c94a9bad3c8c0f82eb9f327d4e0ef76dbea4a67510eb8aa96eac6126e9128",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/rate.ts",
+      "sha256": "c18ac3935eba1834225441becc1c5bb21a75652cc97963890bafc163d424b3c8",
+      "source_sha256": "c18ac3935eba1834225441becc1c5bb21a75652cc97963890bafc163d424b3c8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/recovery.test.ts",
+      "sha256": "f1f4885bfc926df88aa29842fd8ed641eb40aab05197273bc3d51b8d06db549e",
+      "source_sha256": "f1f4885bfc926df88aa29842fd8ed641eb40aab05197273bc3d51b8d06db549e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/recovery.ts",
+      "sha256": "82321eb560caf4dd1da719bb95400e5c07eecead731ff4c06177213078099602",
+      "source_sha256": "82321eb560caf4dd1da719bb95400e5c07eecead731ff4c06177213078099602",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/results.ts",
+      "sha256": "2eac891f6eb347764fbf9770fec4545d77b70f78a5ad1e26b601a58656d942c0",
+      "source_sha256": "2eac891f6eb347764fbf9770fec4545d77b70f78a5ad1e26b601a58656d942c0",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/review.ts",
+      "sha256": "a0500fad8b7edff5f74e652e368a47088122221954326a568d5f6f2dca65c057",
+      "source_sha256": "a0500fad8b7edff5f74e652e368a47088122221954326a568d5f6f2dca65c057",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/execution/types.ts",
+      "sha256": "31dffe207f5882267edfeaa9461ddbc70b2afb4ceb5c92c1583d05c8bcb8e55d",
+      "source_sha256": "31dffe207f5882267edfeaa9461ddbc70b2afb4ceb5c92c1583d05c8bcb8e55d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/classify.test.ts",
+      "sha256": "3e5395d9a91499843cc8f1827dd56788258b96028b6596d612dcd1a0f108be80",
+      "source_sha256": "3e5395d9a91499843cc8f1827dd56788258b96028b6596d612dcd1a0f108be80",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/classify.ts",
+      "sha256": "1ee237146abcb3d060d19f7b812359d7d1b2a32a55e0ca846016bd1bb4cf09db",
+      "source_sha256": "1ee237146abcb3d060d19f7b812359d7d1b2a32a55e0ca846016bd1bb4cf09db",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/correlate.ts",
+      "sha256": "6291857fea3a756bba6d39d898307be900ca32253464e7dfd60f65e9013b853e",
+      "source_sha256": "6291857fea3a756bba6d39d898307be900ca32253464e7dfd60f65e9013b853e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/inbound.test.ts",
+      "sha256": "f1b60755d2356c3e611382cc44666a2980eb30675d70a8a20948c1af98dad2a2",
+      "source_sha256": "f1b60755d2356c3e611382cc44666a2980eb30675d70a8a20948c1af98dad2a2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/index.ts",
+      "sha256": "a8cdc46eca495d9268a63beaef1d77444f5d5c566a520ed9fb52a715245df3d5",
+      "source_sha256": "a8cdc46eca495d9268a63beaef1d77444f5d5c566a520ed9fb52a715245df3d5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/ingest.ts",
+      "sha256": "baca443c4ffbb6beedecbda2544edc4c5ca33d179bf08f9e45e5eda4f8a7005a",
+      "source_sha256": "baca443c4ffbb6beedecbda2544edc4c5ca33d179bf08f9e45e5eda4f8a7005a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/process.ts",
+      "sha256": "4472343c09083d48f02189f96cf57285c33368a9514387b98e96eb3804897c59",
+      "source_sha256": "4472343c09083d48f02189f96cf57285c33368a9514387b98e96eb3804897c59",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/inbound/unsubscribe.ts",
+      "sha256": "2ef970d8314a636ed8b73fae5ef79c076937681e69600cf079f29ed85785dc23",
+      "source_sha256": "2ef970d8314a636ed8b73fae5ef79c076937681e69600cf079f29ed85785dc23",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/src/index.ts",
+      "sha256": "298c9236d04e2e1b6f0d4461f36e071a3877948db6d178ad0accf0fddcac1a30",
+      "source_sha256": "298c9236d04e2e1b6f0d4461f36e071a3877948db6d178ad0accf0fddcac1a30",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-core/tsup.config.ts",
+      "sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "source_sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-e2e/package.json",
+      "sha256": "82d733e54cdb404fdc25b9163ffbe6cc65439437e04477e1eb45a3b05f40ecfc",
+      "source_sha256": "8062445ff4a508349bac7aee41be598c951b6ed5c1047c887789c70c3c7ab4b5",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-e2e/src/gmail.e2e.test.ts",
+      "sha256": "b8d4bd3272bd59de9b72887b67b4731a4fe4e1d379113dcdab90a583396a11bd",
+      "source_sha256": "b8d4bd3272bd59de9b72887b67b4731a4fe4e1d379113dcdab90a583396a11bd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-e2e/src/outlook.e2e.test.ts",
+      "sha256": "a66238b53b81c0bfbd2dd8cf22d81c68a014f0b9ad64612cbda60d50ffb1f9e7",
+      "source_sha256": "a66238b53b81c0bfbd2dd8cf22d81c68a014f0b9ad64612cbda60d50ffb1f9e7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-e2e/src/outreach.e2e.test.ts",
+      "sha256": "81732056969c85c3a623e744ff6b2431586658a03cceb75ceeac0998ebdd183b",
+      "source_sha256": "81732056969c85c3a623e744ff6b2431586658a03cceb75ceeac0998ebdd183b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-e2e/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/README.md",
+      "sha256": "a03f54caac902df45a0e725716dbcfe380ab8a9b7afd41b87496024bdf3637a5",
+      "source_sha256": "a03f54caac902df45a0e725716dbcfe380ab8a9b7afd41b87496024bdf3637a5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/package.json",
+      "sha256": "ee58d1da02fc5dbb9ec03696fdc4c86d8ba7a3b4c9eda7d064072c3adf84d6ec",
+      "source_sha256": "4a277d75ddf1324b718175979fa133c239dcd77f47060f37bb5a45e654026806",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-fakes/src/conformance.ts",
+      "sha256": "12b73bf8f8444a80d7ecd945428154e58528e122add3939568e16218b2e2bb1f",
+      "source_sha256": "12b73bf8f8444a80d7ecd945428154e58528e122add3939568e16218b2e2bb1f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/src/fake-email.ts",
+      "sha256": "894afd064ad568d05631a912f8528fc2890018449bbec11e5ec4a8ba993292ae",
+      "source_sha256": "894afd064ad568d05631a912f8528fc2890018449bbec11e5ec4a8ba993292ae",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/src/fake-gmail.ts",
+      "sha256": "61316c556bc74fdba369f17405cf21c4d98d8ea19a44d82bb355389ffa44f772",
+      "source_sha256": "61316c556bc74fdba369f17405cf21c4d98d8ea19a44d82bb355389ffa44f772",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/src/fake-graph.ts",
+      "sha256": "ef8dade3bfd7f947fda98a59a408ad6261125e1d877bc5b42aaee945f93bec13",
+      "source_sha256": "ef8dade3bfd7f947fda98a59a408ad6261125e1d877bc5b42aaee945f93bec13",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/src/fake-notify.ts",
+      "sha256": "8f0a2ee62df9777fe2712ba0cce8bef9e0ffa213f0cd4f2c16ea39d1f121fa56",
+      "source_sha256": "8f0a2ee62df9777fe2712ba0cce8bef9e0ffa213f0cd4f2c16ea39d1f121fa56",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/src/fakes.test.ts",
+      "sha256": "f5ca17f56702735303f1ea3db05c8683f67c9256ef056e4b0f23bdf73d6ca1cf",
+      "source_sha256": "f5ca17f56702735303f1ea3db05c8683f67c9256ef056e4b0f23bdf73d6ca1cf",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/src/index.ts",
+      "sha256": "33d7cf031e788586644cc7eb1000c3e330a3bcf93a2a70ba93ad9258bd637bd7",
+      "source_sha256": "33d7cf031e788586644cc7eb1000c3e330a3bcf93a2a70ba93ad9258bd637bd7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-fakes/tsup.config.ts",
+      "sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "source_sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/README.md",
+      "sha256": "d2ea2e40ef31690ca84fa6295fdd9392940967707c710065d16889e62c8e0525",
+      "source_sha256": "d2ea2e40ef31690ca84fa6295fdd9392940967707c710065d16889e62c8e0525",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/package.json",
+      "sha256": "f9166d6d911f212b7d33f9e91efce0747dc053288942eb035500b81d40fce047",
+      "source_sha256": "2eb49e17d9eec75606bffd69a73497bbaff5eba52dd66beefb8c2c54988d8619",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-import/src/country.ts",
+      "sha256": "cc0cfb21d6442473eda4b2bcbd2ca6e463097b8bcbab4660823eb6ef0ecab9ba",
+      "source_sha256": "cc0cfb21d6442473eda4b2bcbd2ca6e463097b8bcbab4660823eb6ef0ecab9ba",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/detect.ts",
+      "sha256": "5c9a71ebfaa81e251968a0d350aff084798f313fdd7e2614ca891331a90921c0",
+      "source_sha256": "5c9a71ebfaa81e251968a0d350aff084798f313fdd7e2614ca891331a90921c0",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/export.ts",
+      "sha256": "4009a8f5657e86ea249b0764d73ab02696e82d7e9ef2212a2e104634e16495a2",
+      "source_sha256": "4009a8f5657e86ea249b0764d73ab02696e82d7e9ef2212a2e104634e16495a2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/formats.test.ts",
+      "sha256": "2bfa1d8a9e59bfd4f0314b2b218fe19ba7ba9e11eb3527f8f8e07b7e67958709",
+      "source_sha256": "2bfa1d8a9e59bfd4f0314b2b218fe19ba7ba9e11eb3527f8f8e07b7e67958709",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/html.ts",
+      "sha256": "4051f386fef7018709702f6021c1168de928ec8497d944a762654968d9c20fcc",
+      "source_sha256": "4051f386fef7018709702f6021c1168de928ec8497d944a762654968d9c20fcc",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/importer.test.ts",
+      "sha256": "d3b60ff1b659abae10447012bb4b568ed2f364a83fdac9939b5cdf5bd7796877",
+      "source_sha256": "d3b60ff1b659abae10447012bb4b568ed2f364a83fdac9939b5cdf5bd7796877",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/importer.ts",
+      "sha256": "2578ce802c4e2cfb7ce0365d34df44cc8d095e39895afe784c4b674df0d2c8a4",
+      "source_sha256": "2578ce802c4e2cfb7ce0365d34df44cc8d095e39895afe784c4b674df0d2c8a4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/index.ts",
+      "sha256": "3c1345898e420389e8944af556e3df98f8228ab511d993e6e362f66c35e4b611",
+      "source_sha256": "3c1345898e420389e8944af556e3df98f8228ab511d993e6e362f66c35e4b611",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/normalize.ts",
+      "sha256": "c4583bee0903475998b37171b3f3bf30aef441a547988b46fcc8382ef7740a61",
+      "source_sha256": "c4583bee0903475998b37171b3f3bf30aef441a547988b46fcc8382ef7740a61",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/parsers.ts",
+      "sha256": "e791294dc5f764376e456ddf008e4b8c098b827e316ab060ed5166a42d974521",
+      "source_sha256": "e791294dc5f764376e456ddf008e4b8c098b827e316ab060ed5166a42d974521",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/profile.ts",
+      "sha256": "f885c84cd43788f00503a2c0d3dc340d4f4a09569e0eb445135871169b411fb7",
+      "source_sha256": "f885c84cd43788f00503a2c0d3dc340d4f4a09569e0eb445135871169b411fb7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/src/resolve.ts",
+      "sha256": "b84a704c7cd376f41269c0a361ce36aabbe59c8492c6df77665dd721eae418c1",
+      "source_sha256": "b84a704c7cd376f41269c0a361ce36aabbe59c8492c6df77665dd721eae418c1",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-import/tsup.config.ts",
+      "sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "source_sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/README.md",
+      "sha256": "5e665f6caa951bc46f0d86cb2ae56703da741f08da9531f3ad9f4cbcb525f015",
+      "source_sha256": "5e665f6caa951bc46f0d86cb2ae56703da741f08da9531f3ad9f4cbcb525f015",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/package.json",
+      "sha256": "7f6eae5d9c9466f1991c3f9b55d6329008c3f3bed038d10e95f83b2910b74ced",
+      "source_sha256": "f63abde71367575ec75735274462abd72bdccb90da844c36a4cc6d4b036b396e",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-mcp/src/bin.ts",
+      "sha256": "57bdf22a1986d60ce02cb8fd6b38ae06a59edf9b6b504918dad7162f89b43bf8",
+      "source_sha256": "57bdf22a1986d60ce02cb8fd6b38ae06a59edf9b6b504918dad7162f89b43bf8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/src/index.ts",
+      "sha256": "a285a648f1a5a1b028697facde40632b34d0f6b6defcc1f96397d68965cbf14c",
+      "source_sha256": "a285a648f1a5a1b028697facde40632b34d0f6b6defcc1f96397d68965cbf14c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/src/mcp.test.ts",
+      "sha256": "250959256a8a40a250edb173ff8fbb46df17845e2862ac5a48a663754d70486f",
+      "source_sha256": "250959256a8a40a250edb173ff8fbb46df17845e2862ac5a48a663754d70486f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/src/runtime.test-util.ts",
+      "sha256": "5dbc44e092650c7dcbb324a0e7d1bd0e58734c2f9b8976c95ea42bf2f634a3c3",
+      "source_sha256": "5dbc44e092650c7dcbb324a0e7d1bd0e58734c2f9b8976c95ea42bf2f634a3c3",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/src/runtime.test.ts",
+      "sha256": "109533a445ad36e26adaf9addc4eb28fc7ed048fad626c8cb5c6cc13c354cbe0",
+      "source_sha256": "109533a445ad36e26adaf9addc4eb28fc7ed048fad626c8cb5c6cc13c354cbe0",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/src/tools.ts",
+      "sha256": "af1477cc76e7ab7a4ffd168be49ee48078d5c5f405cb056efe4a8259e5ad39e4",
+      "source_sha256": "af1477cc76e7ab7a4ffd168be49ee48078d5c5f405cb056efe4a8259e5ad39e4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/tsconfig.json",
+      "sha256": "74a6e38aca2076e749a5c3167a8757a9aa16be5b04673958af16aee6a691b265",
+      "source_sha256": "74a6e38aca2076e749a5c3167a8757a9aa16be5b04673958af16aee6a691b265",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-mcp/tsup.config.ts",
+      "sha256": "77ead19f2ba484fa811075f867e10d8f047ed4c2746089f197ce80405c766647",
+      "source_sha256": "77ead19f2ba484fa811075f867e10d8f047ed4c2746089f197ce80405c766647",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-notify-slack/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-notify-slack/README.md",
+      "sha256": "e0aecbdd58252726d8439441a94b8a6a58dd67d4dcd9406fc04670a130d4d61a",
+      "source_sha256": "e0aecbdd58252726d8439441a94b8a6a58dd67d4dcd9406fc04670a130d4d61a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-notify-slack/package.json",
+      "sha256": "65e5dfcda59695aee1a6c5fd6d51553c776d34cd8466d6dc5cd2bc68aac44609",
+      "source_sha256": "7319bffbca09b66145af4e8729f8ae143c41b52e7dd14d40bd6bf7a8538fe083",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-notify-slack/src/index.ts",
+      "sha256": "08f8eb02322588b3dc1c3717ad28dbfcf5c066bb9b24b866054b1d5b9a7a1294",
+      "source_sha256": "08f8eb02322588b3dc1c3717ad28dbfcf5c066bb9b24b866054b1d5b9a7a1294",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-notify-slack/src/slack.test.ts",
+      "sha256": "d302484f8e0a3557dac114ac94ac04027a7922213ae52a33b1f5c6df871d93a3",
+      "source_sha256": "d302484f8e0a3557dac114ac94ac04027a7922213ae52a33b1f5c6df871d93a3",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-notify-slack/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-notify-slack/tsup.config.ts",
+      "sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "source_sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/README.md",
+      "sha256": "12755e787a2d6047f7393af5b3c06f0d309a9003eb2529a99af24d41721fd6d5",
+      "source_sha256": "12755e787a2d6047f7393af5b3c06f0d309a9003eb2529a99af24d41721fd6d5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/package.json",
+      "sha256": "f8b6ea46c2d49fc077dc8c10e9f3f369e6444b8762db99d7e804a2cab62598db",
+      "source_sha256": "0e760226670637628fb5fabd5e9e6eff19adb5b3e4ce1dccb0163bb4636ac685",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/gmail.test.ts",
+      "sha256": "b3220ad9f0e0fff522f9120b7dc82db4dfa8f4bc9f514a72ed8283bcaad65992",
+      "source_sha256": "b3220ad9f0e0fff522f9120b7dc82db4dfa8f4bc9f514a72ed8283bcaad65992",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/http.ts",
+      "sha256": "8220ea3ada0b9a30246d8e6c45e5cec3717c377acea6bc38ae157ff616459b81",
+      "source_sha256": "8220ea3ada0b9a30246d8e6c45e5cec3717c377acea6bc38ae157ff616459b81",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/index.ts",
+      "sha256": "d50da1fe31a444b3627b8270c0a3c05e1a94ee419b2573e9ec069af3121a6255",
+      "source_sha256": "d50da1fe31a444b3627b8270c0a3c05e1a94ee419b2573e9ec069af3121a6255",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/mailbox.ts",
+      "sha256": "6b6380e25bb3f73cbaa23c04dc45feb72ed43fd0ad8292302749cf578859bb3d",
+      "source_sha256": "6b6380e25bb3f73cbaa23c04dc45feb72ed43fd0ad8292302749cf578859bb3d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/oauth.test.ts",
+      "sha256": "69f9375c8de6a2c5769ce9857de71756b2e86b49f771362aa931fdc318471903",
+      "source_sha256": "69f9375c8de6a2c5769ce9857de71756b2e86b49f771362aa931fdc318471903",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/oauth.ts",
+      "sha256": "7140d348b9b03550c55a6e732ee6ef63f3d8b5ce2b758dc2945c5e2155565978",
+      "source_sha256": "7140d348b9b03550c55a6e732ee6ef63f3d8b5ce2b758dc2945c5e2155565978",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/sender.ts",
+      "sha256": "84affc2dba7d364d9bbf76c3d40eb459bbad26254f0013a3f615bc574af51c0e",
+      "source_sha256": "84affc2dba7d364d9bbf76c3d40eb459bbad26254f0013a3f615bc574af51c0e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/src/token.ts",
+      "sha256": "6dd06c730e51f6b56e50cd341985d1888e7f6674e2450b7200cf2d5eb98e3c3d",
+      "source_sha256": "6dd06c730e51f6b56e50cd341985d1888e7f6674e2450b7200cf2d5eb98e3c3d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-gmail/tsup.config.ts",
+      "sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "source_sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/README.md",
+      "sha256": "594dc7a9dc219d98f9410e322efdb7d2736cf0c5c596664d80c249f686dce18f",
+      "source_sha256": "594dc7a9dc219d98f9410e322efdb7d2736cf0c5c596664d80c249f686dce18f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/package.json",
+      "sha256": "04f04995d8b5e023f8f4c430c1cb1dcb8bfb84244afcb8c605493a2d524f3be5",
+      "source_sha256": "872eaf007c969a5464adf73a346e18d5b17128f547b58b9e531d43442bb06f4c",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/graph.ts",
+      "sha256": "9f851a4c0f48a51fe5276a16db8b2e62f07ae4565aeca457fb44abd53d2fde65",
+      "source_sha256": "9f851a4c0f48a51fe5276a16db8b2e62f07ae4565aeca457fb44abd53d2fde65",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/index.ts",
+      "sha256": "3ea074f0b62746f965bb2e32fcbca83b8b022817ff2be4d050eb7ca1a60a85a6",
+      "source_sha256": "3ea074f0b62746f965bb2e32fcbca83b8b022817ff2be4d050eb7ca1a60a85a6",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/mailbox.ts",
+      "sha256": "a52ac4169346d15558c1068bd3932a78a5a40e0a4df92877c2fddd7f87601d14",
+      "source_sha256": "a52ac4169346d15558c1068bd3932a78a5a40e0a4df92877c2fddd7f87601d14",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/oauth.ts",
+      "sha256": "fc6bd3b7303820ec6ab7043237a4cd4ad4c3b0fdf2c7e3a42eee6c990c312470",
+      "source_sha256": "fc6bd3b7303820ec6ab7043237a4cd4ad4c3b0fdf2c7e3a42eee6c990c312470",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/outlook.test.ts",
+      "sha256": "4218dd3e2e60030b098c077a6fc25cd322f44942fedf8f2a832c0407963369c8",
+      "source_sha256": "4218dd3e2e60030b098c077a6fc25cd322f44942fedf8f2a832c0407963369c8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/sender.ts",
+      "sha256": "93d16bd39541b9cfa2f64b7e0d1e932419c6a59105ef527506eb55718fcc40c9",
+      "source_sha256": "93d16bd39541b9cfa2f64b7e0d1e932419c6a59105ef527506eb55718fcc40c9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/src/token.ts",
+      "sha256": "e8b0d2848a1ad1565a71fb8ec2e6c185e23ef579e988243bcfae7f67b3a56e82",
+      "source_sha256": "e8b0d2848a1ad1565a71fb8ec2e6c185e23ef579e988243bcfae7f67b3a56e82",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-email-outlook/tsup.config.ts",
+      "sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "source_sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/README.md",
+      "sha256": "23b8d46e91d54ffa0ac893e96f6c6683ce72bd98dcfe67ece608aa2d159360b2",
+      "source_sha256": "23b8d46e91d54ffa0ac893e96f6c6683ce72bd98dcfe67ece608aa2d159360b2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/package.json",
+      "sha256": "11b1e5d4a7c0c718047cd064ccaebdc35755d2f8cf1d5b2582fc4a2977fc4776",
+      "source_sha256": "04cdcdf0f75b80298ae1fe9d18f96ea18a7c5ce4ea722eaf5ece04395d94177d",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-provider-kit/src/dsn.ts",
+      "sha256": "a2ec4bb7ba0b2f7bddb4bb2d4fe3132fccf50a0e110ff65931520450484056f9",
+      "source_sha256": "a2ec4bb7ba0b2f7bddb4bb2d4fe3132fccf50a0e110ff65931520450484056f9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/src/http.ts",
+      "sha256": "8e3ff43b781d9d52db9d165018554a2475494bc225bcdb5cd54ac6cf2dc3d736",
+      "source_sha256": "8e3ff43b781d9d52db9d165018554a2475494bc225bcdb5cd54ac6cf2dc3d736",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/src/index.ts",
+      "sha256": "737866f4644685da5912c34b1a680fd7f67c9d7d7e37b47e2fe2c065c2751763",
+      "source_sha256": "737866f4644685da5912c34b1a680fd7f67c9d7d7e37b47e2fe2c065c2751763",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/src/kit.test.ts",
+      "sha256": "247ea2e7639809aa60d0badf97e4d969d9a60bfdbc68ba5f68ed961ffaba5dc7",
+      "source_sha256": "247ea2e7639809aa60d0badf97e4d969d9a60bfdbc68ba5f68ed961ffaba5dc7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/src/oauth.ts",
+      "sha256": "b78214f9c3fccf8c40722f68803112d990f2b62937e545200214a7316c1ac155",
+      "source_sha256": "b78214f9c3fccf8c40722f68803112d990f2b62937e545200214a7316c1ac155",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-provider-kit/tsup.config.ts",
+      "sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "source_sha256": "79f5678e9de1df292f3f998e7e007ee8de811f797752dce2217241692fbdbcf7",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/README.md",
+      "sha256": "39f33e4545ac40d0ff8781277a853414ef71d173c766be9970c2da338a287a08",
+      "source_sha256": "39f33e4545ac40d0ff8781277a853414ef71d173c766be9970c2da338a287a08",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/package.json",
+      "sha256": "8e2cfe3dbb4a8a8163068403f1da6a6effb3da83bb99af220ca5a67fc726add1",
+      "source_sha256": "34f35014ff25dd34f73ac24aafddedb370172c22795d450abda21d4d851f9bb0",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-server/src/app.ts",
+      "sha256": "076d12d69cff5ba9f25e3d3349cbf0a15c061508340f4a29a2dab00fc82836af",
+      "source_sha256": "076d12d69cff5ba9f25e3d3349cbf0a15c061508340f4a29a2dab00fc82836af",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/errors.ts",
+      "sha256": "fe77f8aa1155fa0180aa17164b7a70934ee88f16efae62c7857b343364915181",
+      "source_sha256": "fe77f8aa1155fa0180aa17164b7a70934ee88f16efae62c7857b343364915181",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/index.ts",
+      "sha256": "6141ee0c4e32e5f18ac90ca409e3cd4b0254a158d8c0ee0e04cf2ff7a0d1e8a5",
+      "source_sha256": "6141ee0c4e32e5f18ac90ca409e3cd4b0254a158d8c0ee0e04cf2ff7a0d1e8a5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/routes-campaigns.ts",
+      "sha256": "4f1ba4f09f8bca5f959dd4bd8f92ba7e8241f6b7f05f585da017e678f286d201",
+      "source_sha256": "4f1ba4f09f8bca5f959dd4bd8f92ba7e8241f6b7f05f585da017e678f286d201",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/routes-operations.ts",
+      "sha256": "196ea47d63b2296c8198266efc3d161c4a3df937d194be2b936ce4cdffba8677",
+      "source_sha256": "196ea47d63b2296c8198266efc3d161c4a3df937d194be2b936ce4cdffba8677",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/routes-public.ts",
+      "sha256": "2b0755055e0e9e4bcbdfa6c8d88437cf24ab0302e5786946087d95442f540a44",
+      "source_sha256": "2b0755055e0e9e4bcbdfa6c8d88437cf24ab0302e5786946087d95442f540a44",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/serve.ts",
+      "sha256": "e8717cb6604ec3d358aeeb80757a31c1d4bde402a218a594007f3afeafdb6f44",
+      "source_sha256": "e8717cb6604ec3d358aeeb80757a31c1d4bde402a218a594007f3afeafdb6f44",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/src/server.test.ts",
+      "sha256": "dd06bb3b7a8d244e9a2971b4e2afda2cc3ee1322d3413603d4dd35d9569c1749",
+      "source_sha256": "dd06bb3b7a8d244e9a2971b4e2afda2cc3ee1322d3413603d4dd35d9569c1749",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-server/tsup.config.ts",
+      "sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "source_sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/LICENSE",
+      "sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "source_sha256": "399868b37a594c1db4fc4666ddf0964cbdc4430a4bfb7129b4d6f85746b29680",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/README.md",
+      "sha256": "e9c6e487e473b65be4436eb8117ff70238a50f77ad13d00f8231f7aa7e884d5f",
+      "source_sha256": "e9c6e487e473b65be4436eb8117ff70238a50f77ad13d00f8231f7aa7e884d5f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/package.json",
+      "sha256": "4d91e87afb892a9f7d5de7bdb13c947234db4dde63f317ab40c91d63fcde186d",
+      "source_sha256": "a62c68a7f1ce8d5e954549fb58e18812fc47dd3266a66911e2163020a26d73ca",
+      "mode": "100644",
+      "change": "Standalone README, documentation, repository metadata, workflow paths or developer configuration."
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/backup.test.ts",
+      "sha256": "0e401302b478cfa9ae583f7a7dfd59104fef601da2825c1d8b94a73bc712380b",
+      "source_sha256": "0e401302b478cfa9ae583f7a7dfd59104fef601da2825c1d8b94a73bc712380b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/backup.ts",
+      "sha256": "c0fb5eeb3b6521f8b4dd2f87f4e1f5b5ac9a922c928d93d601f9a393459d0cf0",
+      "source_sha256": "c0fb5eeb3b6521f8b4dd2f87f4e1f5b5ac9a922c928d93d601f9a393459d0cf0",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/driver.ts",
+      "sha256": "1ce4529b0fddcfe0b5375d8715b003468e2178568eb47c9748325a339d03e73c",
+      "source_sha256": "1ce4529b0fddcfe0b5375d8715b003468e2178568eb47c9748325a339d03e73c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/index.ts",
+      "sha256": "7d0fc0fbe10cf5029d4f337fdc5e57719cf5b3366a9072415efabf3699080af5",
+      "source_sha256": "7d0fc0fbe10cf5029d4f337fdc5e57719cf5b3366a9072415efabf3699080af5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/migrate.ts",
+      "sha256": "c4ced68503e5347b2d3f9157cca297b6069a500b5db7d737c5ef8c27820ec94d",
+      "source_sha256": "c4ced68503e5347b2d3f9157cca297b6069a500b5db7d737c5ef8c27820ec94d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/open.ts",
+      "sha256": "5957f921a84db615e03a3e720b9eebc94125d6724a3ec00715ab20f364b8643e",
+      "source_sha256": "5957f921a84db615e03a3e720b9eebc94125d6724a3ec00715ab20f364b8643e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/schema-0002.ts",
+      "sha256": "1df3eff521cd4a7fa71eb7315e3b4b436ea3e74d5bf10bff86d51528ec9d38d6",
+      "source_sha256": "1df3eff521cd4a7fa71eb7315e3b4b436ea3e74d5bf10bff86d51528ec9d38d6",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/schema-0003.ts",
+      "sha256": "8e48c800662fdcbdc3538c8667be3ae3b1e8f0e9cba8988963698a2edecf75cb",
+      "source_sha256": "8e48c800662fdcbdc3538c8667be3ae3b1e8f0e9cba8988963698a2edecf75cb",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/schema-0004.ts",
+      "sha256": "6e3da506bdc307adca5d44a5f4a101c5a2aa80c32e8a7a44b3c58520dfd1ff65",
+      "source_sha256": "6e3da506bdc307adca5d44a5f4a101c5a2aa80c32e8a7a44b3c58520dfd1ff65",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/schema.ts",
+      "sha256": "2cccdfcc1a0bcd552b1a04ada7ce08eb023eddf220feb33b275d3dd1e0379f7c",
+      "source_sha256": "2cccdfcc1a0bcd552b1a04ada7ce08eb023eddf220feb33b275d3dd1e0379f7c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/src/store.test.ts",
+      "sha256": "8d1c57588d86fa984814278c25d8718e3d51cf0f120dc4ea5c88137ae88e495e",
+      "source_sha256": "8d1c57588d86fa984814278c25d8718e3d51cf0f120dc4ea5c88137ae88e495e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/tsconfig.json",
+      "sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "source_sha256": "811c26d648f5fa8a672ae8816975fb99bd66f9f56e1aeaf4702eeb8936e38dff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "packages/outreach-store-sqlite/tsup.config.ts",
+      "sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "source_sha256": "7103271dfe8eab2cac08ad427a24d0e2050fd30777057a94e28070547a3665dd",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "7dcf4ee26872f9eeeb8c1589a1bf770c750eba7b88e1c73b13005538cf8703ac",
+      "source_sha256": "7dcf4ee26872f9eeeb8c1589a1bf770c750eba7b88e1c73b13005538cf8703ac",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/check-max-lines.mjs",
+      "sha256": "50e0f13371b2bc13f93e4f57de343c48f3120da3698d3b2df6d7768f82efdea2",
+      "source_sha256": "50e0f13371b2bc13f93e4f57de343c48f3120da3698d3b2df6d7768f82efdea2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/check-package-boundaries.mjs",
+      "sha256": "385ebf20fb6f95b17147f639c582420eaef84077fc25c382a21029ba181b4060",
+      "source_sha256": "385ebf20fb6f95b17147f639c582420eaef84077fc25c382a21029ba181b4060",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/mcp-smoke.mjs",
+      "sha256": "6ff92e555157f53edc329535f3d0e19dba59961455e9eb6c42d57afad695bd0f",
+      "source_sha256": "6ff92e555157f53edc329535f3d0e19dba59961455e9eb6c42d57afad695bd0f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/publish-release.mjs",
+      "sha256": "3d7e67a6d77728beb07919ee4dfb4ab00bff841c9282511ea5ddc5e00fae64da",
+      "source_sha256": "4dc5be23b446f03e548f307da726d707aff197d8815c0e46d60d38f0142ffc9c",
+      "mode": "100644",
+      "change": "Resolve the copied OIDC publish helper within this standalone repository."
+    },
+    {
+      "path": "scripts/release-manifest.mjs",
+      "sha256": "aa3471f3a7a1fb91176af6ff88f1fbbf4851418cfbfd938da7a5b971fcfdd0d2",
+      "source_sha256": "aa3471f3a7a1fb91176af6ff88f1fbbf4851418cfbfd938da7a5b971fcfdd0d2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/scan-secrets.mjs",
+      "sha256": "183689506ddfb522dbb968b8f86a852bb4ba7825dec9cbe39ae233ec5d1864c4",
+      "source_sha256": "183689506ddfb522dbb968b8f86a852bb4ba7825dec9cbe39ae233ec5d1864c4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/soak.mjs",
+      "sha256": "85450964e603f38e1ed0af79f762f76f2d37a3f42cceb486de328c42cd66811b",
+      "source_sha256": "85450964e603f38e1ed0af79f762f76f2d37a3f42cceb486de328c42cd66811b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/verify-release.mjs",
+      "sha256": "4bff2fedd4ced30a522aaf39b4467f4d8a501abc56cd8ba4368f4e8b772bb1f6",
+      "source_sha256": "4bff2fedd4ced30a522aaf39b4467f4d8a501abc56cd8ba4368f4e8b772bb1f6",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tsconfig.base.json",
+      "sha256": "321a5f2121f1bd83d8af855f7471724c73720d856d6811df113264a12e5eaea9",
+      "source_sha256": "321a5f2121f1bd83d8af855f7471724c73720d856d6811df113264a12e5eaea9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "329ec56f8e9d8185800fbbe0b178d5342de2d1f57750abc1f8858968954597b6",
+      "source_sha256": "329ec56f8e9d8185800fbbe0b178d5342de2d1f57750abc1f8858968954597b6",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/assert-release-tag.mjs",
+      "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606",
+      "source_sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606",
+      "mode": "100755",
+      "change": null
+    },
+    {
+      "path": "scripts/oidc-npm-publish.mjs",
+      "sha256": "6f471a4187d4db4d0727600cdb0aa85ccf268da46f99fd1f90ba17e8d0377f57",
+      "source_sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad",
+      "mode": "100755",
+      "change": "Use globalThis.fetch to satisfy the workspace lint globals without changing behavior."
+    }
+  ]
+}

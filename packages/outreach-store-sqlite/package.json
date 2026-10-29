@@ -4,11 +4,11 @@
   "description": "SQLite schema, migrations and drivers implementing the outreach SqlDatabase port.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-store-sqlite#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-store-sqlite"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-store-sqlite"
   },
   "type": "module",
   "sideEffects": false,
@@ -39,5 +39,8 @@
   },
   "dependencies": {
     "@splitin/outreach-contracts": "0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

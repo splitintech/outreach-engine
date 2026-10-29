@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "source_commit": "13a7ffb75de3c5be017ce05d15e4115f191252d7",
+  "local": {
+    "unit_tests": 313,
+    "build_lint_typecheck_boundaries_secrets_loc": "passed",
+    "soak_actions": 10000,
+    "soak": "fake providers; concurrent workers; no duplicate attempts",
+    "esm_cjs_exports": 12,
+    "packed_tarballs": 12,
+    "installed_cli_mcp": "passed",
+    "local_note": "TMPDIR=/private/tmp avoids macOS /var symlink rejected by backup safety checks"
+  },
+  "ci": "Check Actions on the exact standalone commit; final successful runs are recorded in the hub migration ledger.",
+  "npm_published": false,
+  "images_published": false,
+  "live_services_deployed": false,
+  "provider_calls_or_notifications": false
+}

@@ -1,34 +1,74 @@
-<p align="center">
-  <img src="../docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
-</p>
+<p align="center"><img src="docs/brand/splitin-logo.png" alt="SplitIn" width="96" height="96"></p>
 
 # Outreach Engine
 
-MIT-licensed, provider-neutral outreach orchestration. It imports contacts, turns
-versioned playbooks into per-contact scheduled actions, executes each action at most
-once through capability-checked provider adapters, stops on reply, bounce, opt-out or
-pause, and records every transition in an append-only audit log.
+Provider-neutral outreach orchestration with durable state, explicit human approval,
+reply/opt-out handling and an append-only audit log. Import contacts, compile versioned
+playbooks into scheduled actions, and execute them through capability-checked adapters.
+The CLI, HTTP API, local MCP server and Papr console are clients of the same engine.
 
-The engine is the product. The CLI, HTTP API, MCP server, Slack and the Papr Work app
-are thin clients of it.
+## Status and distribution
 
-> **Status: M0–M7 complete, the D5 jurisdiction policy, the Gmail and Outlook adapters, Slack notifications and the health checker (M8).** Contracts, fakes, SQLite store, the durable execution core,
-> the campaign domain, the importer, inbound processing, the `outreach` CLI, the HTTP API
-> and the Papr Work console are built and tested on fake providers. Real provider adapters
-> and Slack are M8, MCP is M9.
-> Local M9 stdio MCP and M10 release preparation are now implemented in this working tree; external acceptance and publication are still pending.
-> Nothing is emailed until an admin opens the live-send gate. Specification:
-> [BUILD_PLAN.md](BUILD_PLAN.md), milestones in §14.
+This standalone repository includes the engine workspace and the later Papr compatibility
+changes. It contains **12 public-intended npm packages**, a private end-to-end test package
+and a private Papr application. The workspace root itself is private.
 
-## Guarantees it is being built to
+All public packages currently use development version `0.0.0`. No npm publication or
+production deployment is implied. Use local builds and packed artifacts for development.
+Live Gmail/Outlook acceptance, Papr desktop acceptance and host-specific MCP acceptance
+remain separate release gates. Papr's optional local worker remains disabled by default;
+remote MCP is not exposed.
 
-- **At most once without confirmation.** A send whose outcome is unknown is never
-  repeated until the provider confirms it did not happen ([ADR 0002](docs/adr/0002-at-most-once-without-confirmation.md)).
-- **Fail closed.** Unhealthy account, engaged kill switch, expired approval, suppressed
-  recipient or unrenderable template all mean no send, with a recorded reason.
-- **No social-network automation.** Social steps are manual tasks a human completes on
-  the native site ([ADR 0003](docs/adr/0003-no-social-automation.md)).
-- **No LLM in the send path.** Models may draft and suggest; deterministic code decides.
+## Behavior and boundaries
+
+- Durable action state, provider reconciliation and an auditable transition history.
+- An uncertain send outcome is held until reconciled, rather than automatically repeated.
+- Reply, bounce, opt-out, suppression, pause, expired approval and unhealthy account checks.
+- Imports from CSV, JSON, inert HTML and XLSX through isolated parsing packages.
+- Versioned playbooks, template rendering, approval and campaign execution controls.
+- Gmail and Outlook adapters, Slack notifications and local stdio MCP.
+- Social-network steps remain manual tasks; no automated social-site interaction.
+- Models may draft or propose work; deterministic engine code controls execution.
+
+A provider adapter being present does not establish live account configuration or acceptance.
+The admin-controlled live-send gate stays part of the engine. Do not bypass it by invoking
+adapter send functions directly.
+
+## Requirements and quick start
+
+Use Node.js **22.13 or later** (including built-in `node:sqlite`) and npm.
+No live provider credentials are needed for fake-provider tests.
+
+```sh
+git clone https://github.com/splitintech/outreach-engine.git
+cd outreach-engine
+npm ci
+npm run build
+mkdir -p .test-tmp
+TMPDIR="$(pwd -P)/.test-tmp" npm run check
+npm run soak
+npm run mcp:smoke
+npm run release:verify -- --allow-unreleased
+npm run check:packed
+```
+
+The explicit temporary directory avoids macOS symlink aliases rejected by the backup
+path checks. Use a physical checkout path (`pwd -P`).
+
+The build script orders workspaces by their dependencies. `check` runs lint, TypeScript,
+tests, package-boundary rules, secret checks and source-size checks. `soak` exercises
+synthetic durable execution. `mcp:smoke` starts a real local subprocess with a temporary
+synthetic database; it does not send email or qualify a particular desktop host.
+
+After building, initialize a local database through the CLI:
+
+```sh
+node packages/outreach-cli/dist/bin.js init --db /absolute/path/outreach.db
+```
+
+Use [the runbook](docs/runbook.md) for account configuration, import, campaigns, approvals,
+workers, server operation, backups and incident recovery. Local state and credentials
+must stay outside Git and package artifacts.
 
 ## Packages
 
@@ -50,37 +90,80 @@ are thin clients of it.
 | `@splitin/outreach-notify-slack` | M8 | Slack notifications: incoming webhook or `chat.postMessage`, escaped Block Kit |
 | Zoho Mail adapter | M8 | Automated sending excluded by current provider policy; see proposed ADR 0005 |
 
-## Develop
 
-Requires Node ≥ 22.13.
+The package table retains milestone labels for traceability. Current implementation and
+remaining acceptance boundaries are described above and in the linked package READMEs.
 
-```zsh
-cd open-internal-tools/outreach-engine
-npm install
-npm run check   # lint, typecheck, test, package boundaries, secret scan, line limit
-npm run build
+## Architecture and package use
+
+`outreach-contracts` defines the shared ports and types. Core orchestration, import and
+provider adapters use those contracts; SQLite, HTTP, MCP, Slack and parsing dependencies
+remain in the packages that own them. `npm run boundaries` enforces that separation.
+Keep the engine packages together in this repository and release compatible versions
+in dependency order.
+
+A consumer installs the subset it needs: for example, core/contracts plus a store and
+provider for embedding, the CLI for local operations, or the MCP server for an agent host.
+The command-line/server/storage packages require Node; they are not browser libraries.
+The Papr bundle has its own desktop compatibility and acceptance requirements.
+
+## Local MCP and Papr
+
+After a versioned package installation provides `outreach-mcp`, a host configuration is:
+
+```json
+{
+  "mcpServers": {
+    "outreach": {
+      "command": "outreach-mcp",
+      "args": ["--db", "/absolute/path/outreach.db", "--workspace", "default"]
+    }
+  }
+}
 ```
 
-`npm run boundaries` enforces the dependency direction in BUILD_PLAN.md §3: the core,
-importer and adapters depend on `@splitin/outreach-contracts` only, and storage, HTTP,
-MCP, Slack and file-parsing libraries are confined to the packages that own them. A new
-package fails the check until it is given a rule.
+For source development, launch `node /absolute/path/outreach-engine/packages/outreach-mcp/dist/bin.js`
+with the same arguments. Initialize the database as the local OS user first. The MCP
+server exposes ten tools and requires human confirmation for committing prepared changes;
+clients without the required confirmation capability can preview but cannot commit.
+It does not launch a worker, load provider secrets or expose a TCP listener.
 
-## Decisions
+See [MCP behavior and limits](packages/outreach-mcp/README.md),
+[Papr setup](apps/papr/README.md) and [Papr acceptance](apps/papr/docs/ACCEPTANCE.md).
+The Papr compatibility additions preserve `cloudReady: false`; a compatible manifest is
+not evidence of a completed desktop import or live job execution.
 
-Architecture decisions live in [docs/adr/](docs/adr/). Change a decision by adding a new
-ADR that supersedes the old one, not by editing it.
+## Repository guide
+
+| Path | Contents |
+| --- | --- |
+| `packages` | Public library/CLI/server/adapters and private E2E suite |
+| `apps/papr` | Papr bundle, local worker wrapper and compatibility tests |
+| `scripts` | Ordered builds, boundaries, soak, package and release checks |
+| `docs/adr` | Architecture and provider-policy decisions |
+| `docs/runbook.md` | Setup, operations and recovery |
+| `BUILD_PLAN.md` | Original scope and acceptance milestones |
+
+## Packaging and release
+
+`npm run check:packed` installs all public tarballs into a fresh consumer and verifies
+exports plus local CLI/MCP operation. `release:verify -- --allow-unreleased` checks the
+development artifacts without allowing publication of `0.0.0`.
+
+Before release, assign one coordinated version, update internal dependency versions,
+complete the applicable external acceptance checks, configure npm trusted publishing for
+all public packages and enable the repository publication gate. The publish workflow
+requires the established verified signed annotated tag and protected release environment.
+See [release preparation](docs/release.md), [maintenance](docs/maintenance.md) and
+[threat model](docs/threat-model.md).
+
+## Contributing and provenance
+
+See [CONTRIBUTING.md](CONTRIBUTING.md), [migration provenance](docs/migration.md),
+[validation record](docs/migration/validation.json), and [release setup](docs/repository-release.md).
+Relevant Git history, source inventories, original licenses and artwork are retained.
+The migration does not publish packages, configure credentials or deploy infrastructure.
 
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
-
-## Remaining release gates
-
-See [release preparation](docs/release.md), [operations runbook](docs/runbook.md),
-[threat model](docs/threat-model.md) and [local MCP](packages/outreach-mcp/README.md).
-Local tests do not complete live Gmail/Outlook, Papr or Claude Code acceptance.
-The Slack control app is a separate `slack-agent-hq` PR. Remote MCP remains disabled
-pending issuer/audience/hosting decisions. All packages remain development version
-0.0.0, and no release tag, package publication or deployment is implied.

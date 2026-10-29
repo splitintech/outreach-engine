@@ -52,7 +52,7 @@ function encodePackageName(name) {
 
 async function publishedVersion(name, version) {
   const url = `https://registry.npmjs.org/${encodePackageName(name)}/${encodeURIComponent(version)}`;
-  const response = await fetch(url, {
+  const response = await globalThis.fetch(url, {
     headers: { accept: "application/json" },
   });
   if (response.status === 404) return false;

@@ -4,11 +4,11 @@
   "description": "Outreach engine core: durable action execution, campaign domain, policy and inbound processing.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-core#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-core"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-core"
   },
   "type": "module",
   "sideEffects": false,
@@ -47,5 +47,8 @@
     "@splitin/outreach-fakes": "0.0.0",
     "@splitin/outreach-store-sqlite": "0.0.0",
     "@types/luxon": "^3.7.5"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

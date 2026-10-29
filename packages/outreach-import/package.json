@@ -4,11 +4,11 @@
   "description": "Inert HTML/CSV/XLSX/JSON contact importer: staging, mapping profiles, preview and idempotent commit.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-import#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-import"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-import"
   },
   "type": "module",
   "sideEffects": false,
@@ -46,5 +46,8 @@
   },
   "devDependencies": {
     "@splitin/outreach-store-sqlite": "0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

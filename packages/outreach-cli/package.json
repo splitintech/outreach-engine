@@ -4,11 +4,11 @@
   "description": "The outreach command line: setup, imports, campaigns, approvals, tasks, review, worker and HTTP server.",
   "license": "MIT",
   "author": "SplitInTech",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/outreach-engine#readme",
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-cli#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "outreach-engine/packages/outreach-cli"
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-cli"
   },
   "type": "module",
   "sideEffects": false,
@@ -49,5 +49,8 @@
   },
   "bin": {
     "outreach": "./dist/bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }

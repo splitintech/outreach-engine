@@ -16,5 +16,14 @@
     "@splitin/outreach-provider-email-gmail": "0.0.0",
     "@splitin/outreach-provider-email-outlook": "0.0.0",
     "@splitin/outreach-store-sqlite": "0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/outreach-engine.git",
+    "directory": "packages/outreach-e2e"
+  },
+  "homepage": "https://github.com/splitintech/outreach-engine/tree/main/packages/outreach-e2e#readme",
+  "bugs": {
+    "url": "https://github.com/splitintech/outreach-engine/issues"
   }
 }
